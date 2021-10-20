@@ -27,4 +27,18 @@ Luego, debe listar los datos y los sueldos de cada uno y calcular un promedio
 
  *****************************************************************************************/
 
+#include <iostream>
+#include "empleados.h"
+#include "jefedearea.h"
+#include "director.h"
+#include "administrativo.h"
+
+int main() {
+
+
+
+
+
+
+};
 
