@@ -11,7 +11,7 @@ class Director: public Empleado {
 
 
 //metodos
-private:
+public:
     Director(std::string nombre, std::string apellido, unsigned int legajo, unsigned int antiguedad,
              float salario);
 

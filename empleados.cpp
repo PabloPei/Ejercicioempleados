@@ -42,10 +42,12 @@ float Empleado::get_salario(){
     return this -> salario;
 }
 
-void Empleado::visualizar_caract() {
+void Empleado::visualizar_caract(){
     cout << "-------------" << endl << "EMPLEADO" << endl << "------------" << endl;
-    cout << "Nombre y Apellido: " << this->nombre << this -> apellido << endl;
+    cout << endl;
+    cout << "Nombre y Apellido: " << this->nombre <<"  " << this -> apellido << endl;
     cout << "Antiguedad: " << this -> antiguedad << endl;
     cout << "Legajo: " << this -> legajo << endl;
     cout << "Salario: " << this -> salario << endl;
+    cout << endl;
 }

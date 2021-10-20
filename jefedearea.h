@@ -11,7 +11,7 @@ class Jefe_area: public Empleado {
 
 
 //metodos
-private:
+public:
     Jefe_area(std::string nombre, std::string apellido, unsigned int legajo, unsigned int antiguedad,
               float salario);
 

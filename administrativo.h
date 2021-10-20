@@ -11,7 +11,7 @@ class Administrativo: public Empleado {
 
 
 //metodos
-private:
+public:
     Administrativo(std::string nombre, std::string apellido, unsigned int legajo, unsigned int antiguedad,
                    float salario);
 
